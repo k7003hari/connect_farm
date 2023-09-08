@@ -1,0 +1,54 @@
+.con {
+    border: 2px solid #dedede;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    color: #fff;
+    width: 650px;
+    height:80px;
+    word-wrap:break-word;
+}
+
+/* Darker chat container */
+.darker {
+    border-color: #ccc;
+    background-color: #000;
+    float: right;
+}
+
+/* Clear floats */
+.con::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Style images */
+.con img {
+    float: left;
+    max-width: 60px;
+    width: 80%;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+/* Style the right image */
+.con img.right {
+    float: right;
+    margin-left: 20px;
+    margin-right:0;
+}
+
+/* Style time text */
+.time-right {
+    position: relative;
+    float: right;
+    color: #fff;
+}
+
+/* Style time text */
+.time-left {
+    float: left;
+    color: #fff;
+}
